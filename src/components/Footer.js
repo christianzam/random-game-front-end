@@ -11,7 +11,6 @@ function Footer() {
         {githubUser ? (
           <>
             <span>{githubUser.login} &copy; 2023</span>
-            {/* Other dynamic content using 'githubUser' */}
           </>
         ) : (
           <span>Loading...</span>

@@ -29,7 +29,7 @@ function App() {
       <div className="container">
         <div className="row">
           <div className="col-md-8 mt-5">
-            <UserProfile userId='1' player={playerData} />
+            <UserProfile userId='10' player={playerData} />
             <DailyMatchTable dailyMatch={dailyMatchData} />
           </div>
           <div className="col-md-4 mt-5">
